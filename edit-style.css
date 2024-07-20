@@ -415,26 +415,28 @@ ul a {
 }
 .languages{
     margin-left: 40px;
-    height: 45px;
-    padding-left: 30px;
-    cursor: pointer;
-    background-color: transparent;
-    border: 1.4px solid #DDDDDD;
-    border-radius: 1.89px;
-    color: white;
+    border-radius: 0.85px;
     
 }
 select{
+    color: white;
     border: none;
     background-color: transparent;
-    color: white;
+}
+.border1{
+    border: 2px solid white;
+    height: 45px;
+    width: 140px;
+    padding-left: 30px;
+    background-color: transparent;
 }
 .global-icon{
     margin-left: 50px;
-    margin-top: -32px;
+    margin-top: -30px;
     margin-right: 50px;
     color: white;
 }
+
 /* Currency-option */
 .Currency{
     margin-left: 10px;
@@ -452,7 +454,7 @@ select{
     height: 20px;
     width: 30px;
     position: absolute;
-    margin-left: 290px;
+    margin-left: 310px;
     margin-top: 18px;
 }
 .flag-button{
@@ -470,13 +472,12 @@ select{
 .footer-pannel4{
     background-color: #131A22;
     color: white;
-    height: 400px;
     display: flex;
-    justify-content: space-evenly;
-
-
-    
+    padding: 30px 30px 30px 30px; 
+    flex-wrap: wrap;  
+    padding-left: 150px; 
 }
+
 .footer-unorderlist a{
     display: block;
     font-size: 0.85rem;
