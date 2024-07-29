@@ -12,6 +12,7 @@
     color: white;
     align-items: center;
     justify-content: space-evenly;
+
 }
 
 .nav-logo{
@@ -27,7 +28,7 @@
 }
 
 .border{
-    border: 1.65px solid black;
+    border: 1.65px solid transparent;
     border-radius: 5px;
 }
 
@@ -42,12 +43,15 @@
     font-size: 0.85rem;
     margin-top: 8px;
     margin-left: 10px;
+    margin-bottom: -20px;
 
 }
+
 
 .add-sec{
     font-size: 1rem;
     margin-left: 7px;
+    
 }
 
 .add-icon{
@@ -176,105 +180,230 @@ p{
     padding-left: 20px;
     padding-top: 20px;
     color: white;
+    padding-bottom: 20px;
 }
-.issue-card{
+.card-container{
+    width: 100%;
+    height: auto;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.flex-card {
+    width: 500px;
+    height: 130px;
+    background: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 120px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.allImages{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+#title{
+    color: black;
+    margin-left: 80px;
+    margin-top: -10px;
+    display: flex;
+    position: absolute;
+}
+
+ /* hero-section-2 */
+ .hero-section2{
+    height: 900px;
+    margin-left: 30px;
+ }
+
+.bold-heading{
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.search2-input{
+    height: 50%;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 7px 25px;
+}
+.hero-images-topics{
+    height: 600px;
+    width: 1500px;
+    margin-left: 20px;
+}
+footer{
+    margin-top: 15px;
+}
+.footer-pannel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
     
 }
-.issue-card{
-    width: 33.33%;
-    padding: 12px;
-
-}
-.option-card button{
-    height: 94px;
-    width: 266.6px;
-    background-color: white;
-    border: 1px soild ;
-    border-radius: 5px;
+.footer-pannel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
     display: flex;
-    padding: 16px 20px;
+    justify-content: space-evenly;
+    text-decoration: none;
 }
-.card1-image img{
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    margin-top: -80px;
+ul a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    margin-top: 50px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+   margin-top: 15px;
+   color: #DDDDDD;
+   text-decoration:  none;
+}
+
+.footer-pannel3{
+    background-color: #222f3A;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;   
+    padding-bottom: 30px;
+}
+
+.logo-pannel3{
+    background-image: url("Amazon_logo.png");
+    background-size: cover;
+    height: 40px;
+    width: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.languages{
+    margin-left: 40px;
+    border-radius: 0.85px;
+    
+}
+select{
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+.border1{
+    border: 1.4px solid white;
+    height: 45px;
+    width: 140px;
+    padding-left: 30px;
+    background-color: transparent;
+}
+.global-icon{
+    margin-left: 50px;
+    margin-top: -30px;
+    margin-right: 50px;
+    color: white;
+}
+
+/* Currency-option */
+.Currency{
     margin-left: 10px;
+    margin-top: 10px;
 }
-.card2-image img{
-    height: 60px;
-    width: 60px;
+.currency-button{
+    background-color: transparent;
+    border: 1.4px solid #DDDDDD;
+    border-radius: 1.89px;
+    height: 45px;
+    width: 120px;
+    color: #DDDDDD;
+}
+.image-flag{
+    height: 20px;
+    width: 30px;
     position: absolute;
-    margin-top: -80px;
-    margin-left: 10px;
+    margin-left: 310px;
+    margin-top: 18px;
 }
-.card3-image img{
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    margin-top: -80px;
+.flag-button{
+    background-color: transparent;
+    border: 1.4px solid #DDDDDD;
+    border-radius: 1.89px;
+    height: 45px;
+    width: 140px;
+    color: #DDDDDD;
+    padding-left: 50px;
     margin-left: 10px;
+    margin-top: 8px;   
 }
-.card4-image img{
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 10px;
+
+.footer-pannel4{
+    background-color: #131A22;
+    color: white;
+    display: flex;
+    padding: 30px 30px 30px 30px; 
+    flex-wrap: wrap;  
+    padding-left: 150px;
+    padding-bottom: 200px; 
 }
-.card5-image img{
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 10px;
-}
-.card6-image img{
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 10px;
-}
-.card7-image img{
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 10px;
-}
-.card8-image img{
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 10px;
-}
-.card9-image img{
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 10px;
-}
-.card10-image img{
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 10px;
-}
-.card11-image img{
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 10px;
-}
-.issue-card-title{
-   padding-left: 70px;
+
+.footer-unorderlist a{
+    display: block;
+    font-size: 0.85rem;
    margin-top: 10px;
-   font-size: 16px
+   color: #DDDDDD;
 }
+
+/* footer-pannel5 */
+.footer-pannel5 {
+    background-color: #131A22;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#ads-line {
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+a{
+    color: white;
+    margin-left: 7px;
+    text-decoration: none;
+}
+
+img{
+    margin-left: -1px;
+    margin-top: -9px;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+}
+.pages :hover{
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+.copyright{
+    padding-top: 8px;
+   
+}
+
